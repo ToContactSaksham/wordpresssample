@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Northstar Company Profile</title>
+  <link rel="stylesheet" href="profile.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="Northstar home"><span class="brand-mark">N</span><span>northstar</span></a>
+    <button class="menu-toggle" aria-expanded="false" aria-controls="main-nav">Menu <span></span></button>
+    <nav id="main-nav" class="nav-links" aria-label="Primary navigation">
+      <a href="#overview">Platform</a><a href="#overview">Solutions</a><a href="#people">Resources</a><a href="#news">Pricing</a>
+    </nav>
+    <div class="header-actions"><a href="#overview" class="search-link">⌕ Search</a><a href="#overview" class="login-link">Log in</a><a class="outline-button" href="#overview">Contact sales</a><a class="solid-button" href="#overview">Start free</a></div>
+  </header>
+
+  <main id="top">
+    <section class="hero"><div class="shell company-intro">
+      <div class="company-logo" aria-label="Placeholder company logo"><span>n</span><i></i></div>
+      <div><p class="eyebrow">COMPANY PROFILE</p><h1>Northstar Commerce</h1><p class="company-meta">Digital commerce · Portland, Oregon · 2,000+ employees</p><a class="profile-cta" href="#overview">View company details <span>→</span></a></div>
+    </div></section>
+
+    <div class="shell page-layout">
+      <section id="overview" class="profile-card" aria-labelledby="overview-title">
+        <div class="card-heading"><div><p class="eyebrow">COMPANY SNAPSHOT</p><h2 id="overview-title">Overview</h2></div><div class="rank-badge"><span>↗</span> Momentum rank: <strong>18</strong></div></div>
+        <div class="overview-grid">
+          <dl class="fact-list">
+            <div><dt>Headquarters</dt><dd>185 Market Street, Portland, OR 97204</dd></div>
+            <div><dt>Phone number</dt><dd>(503) 555-0148</dd></div>
+            <div><dt>Website</dt><dd><a href="#overview">northstar.example</a></dd></div>
+            <div><dt>Annual revenue</dt><dd>$186.4 million</dd></div>
+            <div><dt>Founded</dt><dd>2012</dd></div>
+            <div><dt>Industries</dt><dd class="chips"><a href="#overview">Ecommerce</a><a href="#overview">Retail</a><a href="#overview">Software</a></dd></div>
+          </dl>
+          <aside class="signal-panel"><div class="signal-icon">⌁</div><h3>Profile intelligence</h3><p>Explore market signals, employee growth, and competitive context for this company.</p><button class="text-button" data-modal-open>See what’s included <span>→</span></button></aside>
+        </div>
+      </section>
+
+      <div class="content-grid"><section class="content-main">
+        <nav class="tabs" aria-label="Company profile sections" role="tablist"><button role="tab" aria-selected="true" data-tab="about">About</button><button role="tab" aria-selected="false" data-tab="people">People</button><button role="tab" aria-selected="false" data-tab="news">News</button></nav>
+        <article class="detail-card tab-panel active" id="about" role="tabpanel"><h2>About Northstar Commerce</h2><p>Northstar Commerce builds practical tools that help independent brands create memorable customer experiences. Its platform brings together storefront operations, reporting, and customer engagement in one focused workspace.</p><p>The company partners with growing teams that want a clear view of their business without unnecessary complexity.</p><button class="expand-button" aria-expanded="false" data-expand="about-more">Read more <span>⌄</span></button><div id="about-more" class="expand-content"><p>With distributed teams across North America, Northstar supports thousands of merchants in bringing thoughtful products to market.</p></div></article>
+        <article class="detail-card tab-panel" id="people" role="tabpanel"><h2>Employee directory</h2><p>Browse representative departments and leadership roles across the organization.</p><div class="people-grid"><div><span class="avatar">AR</span><strong>Avery Reed</strong><small>Chief Executive Officer</small></div><div><span class="avatar violet">KM</span><strong>Kai Morgan</strong><small>VP, Customer Experience</small></div><div><span class="avatar teal">SL</span><strong>Sam Lee</strong><small>Director, Operations</small></div></div></article>
+        <article class="detail-card tab-panel" id="news" role="tabpanel"><h2>Recent company news</h2><div class="news-item"><span>JUL 14</span><div><h3>Northstar introduces a streamlined reporting suite</h3><p>A new product update gives teams a simpler path from daily metrics to decisions.</p></div></div><div class="news-item"><span>JUN 02</span><div><h3>Company opens a new customer collaboration hub</h3><p>The new space brings support, research, and community programs together.</p></div></div></article>
+      </section>
+      <aside class="right-rail"><section class="rail-card"><p class="eyebrow">GROWTH SIGNAL</p><h3>Employee trend</h3><div class="chart" aria-label="Employee growth chart"><i></i><i></i><i></i><i></i><i></i></div><div class="chart-labels"><span>2022</span><span>Today</span></div><strong class="trend">+24% <small>over 12 months</small></strong></section><section class="rail-card"><p class="eyebrow">SIMILAR COMPANIES</p><a href="#overview"><span class="mini-logo coral">L</span> Luma Labs <b>›</b></a><a href="#overview"><span class="mini-logo yellow">V</span> Verve Market <b>›</b></a><a href="#overview"><span class="mini-logo blue">B</span> Brightfield <b>›</b></a></section></aside></div>
+    </div>
+  </main>
+  <footer><div class="shell">© 2026 Northstar · Original profile layout demonstration</div></footer>
+  <div class="modal" role="dialog" aria-modal="true" aria-labelledby="modal-title" hidden><div class="modal-backdrop" data-modal-close></div><div class="modal-box"><button class="modal-close" aria-label="Close" data-modal-close>×</button><p class="eyebrow">PROFILE INTELLIGENCE</p><h2 id="modal-title">Make every account conversation count</h2><p>Get a clear look at company structure, growth signals, and key contacts with a complete company profile.</p><a href="#overview" class="solid-button" data-modal-close>Explore the platform</a></div></div>
+  <script src="profile.js"></script>
+</body></html>
